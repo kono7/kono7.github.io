@@ -6,7 +6,7 @@ button {
   text-align: center;
   font-size: 16px;
   margin: 4px 20px;
-  cursor: crosshair;
+  cursor: pointer;
   border-radius: 25px
   
 }
