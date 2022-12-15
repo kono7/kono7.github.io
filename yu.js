@@ -75,7 +75,7 @@ var formats = [
 document.querySelectorAll("td a").forEach(function(sel) {
 	var found = 0;
 	
-	var arraySplit = sel.getAttribute("href").split(".");
+	var arraySplit = sel.getAttribute("title").split(".");
 	
 	var oldText = sel.textContent;
 	var fileExt = arraySplit[arraySplit.length - 1];
