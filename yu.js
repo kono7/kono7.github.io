@@ -60,7 +60,7 @@ if (currentDir.length > 15)
 	currentDir = currentDir.substring(0, 14) + "...";
 
 // Updating page title.
-document.title = currentDir + " â€“ " + websiteName;
+document.title = currentDir + " money " + websiteName;
 
 // Establish supported formats.
 var formats = [
